@@ -97,11 +97,8 @@
 }
 
 @utility hero-pattern {
-  background-image:
-    radial-gradient(circle at 20% 20%, rgba(251, 181, 7, 0.25) 0, transparent 45%),
-    radial-gradient(circle at 80% 70%, rgba(40, 44, 53, 0.4) 0, transparent 50%),
-    linear-gradient(135deg, #D5071C 0%, #A80417 45%, #1B1F26 100%);
-  color: #ffffff;
+  background-color: #ffffff;
+  color: var(--navy);
 }
 
 @utility plus-pattern {
