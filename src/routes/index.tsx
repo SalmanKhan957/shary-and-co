@@ -164,18 +164,18 @@ function Hero() {
       <div className="plus-pattern absolute inset-0 pointer-events-none" aria-hidden="true" />
       <div className="relative mx-auto grid max-w-7xl items-center gap-10 px-5 pb-16 pt-12 md:grid-cols-2 md:gap-14 md:pb-24 md:pt-16">
         <div className="fade-in-up">
-          <span className="inline-flex items-center gap-2 rounded-full border border-border bg-surface px-3 py-1 text-xs font-semibold uppercase tracking-wide text-ink-muted">
-            <span className="h-1.5 w-1.5 rounded-full bg-navy" /> September Intake · Admissions close {DEADLINE}
+          <span className="inline-flex items-center gap-2 rounded-full border border-white/30 bg-white/10 px-3 py-1 text-xs font-semibold uppercase tracking-wide text-white">
+            <span className="h-1.5 w-1.5 rounded-full bg-white" /> September Intake · Admissions close {DEADLINE}
           </span>
-          <h1 className="mt-5 text-3xl font-extrabold leading-[1.08] tracking-tight text-navy md:text-5xl">
+          <h1 className="mt-5 text-3xl font-extrabold leading-[1.08] tracking-tight text-white md:text-5xl">
             Become a Doctor with a Globally Recognised{" "}
-            <span className="text-teal">Dual Degree MBBS + MPH</span>
+            <span className="text-amber-300">Dual Degree MBBS + MPH</span>
           </h1>
-          <p className="mt-4 max-w-xl text-lg font-medium text-ink md:text-xl">
+          <p className="mt-4 max-w-xl text-lg font-medium text-white/90 md:text-xl">
             Study medicine at Azerbaijan Medical University for just {TUITION_PER_YEAR}/year.
             No entry test. No foundation year. Recognised by PMDC, WHO &amp; WFME.
           </p>
-          <ul className="mt-5 grid max-w-md gap-2 text-sm text-ink-muted sm:grid-cols-2">
+          <ul className="mt-5 grid max-w-md gap-2 text-sm text-white/90 sm:grid-cols-2">
             {[
               "Globally recognised degree",
               "USMLE / ECFMG eligible",
@@ -183,7 +183,7 @@ function Hero() {
               "Affordable living (~$250/mo)",
             ].map((b) => (
               <li key={b} className="flex items-center gap-2">
-                <span className="flex h-5 w-5 flex-shrink-0 items-center justify-center rounded-full bg-navy/10 text-navy text-xs">
+                <span className="flex h-5 w-5 flex-shrink-0 items-center justify-center rounded-full bg-white/20 text-xs">
                   ✓
                 </span>
                 {b}
@@ -193,7 +193,7 @@ function Hero() {
           <div className="mt-7 flex flex-col gap-3 sm:flex-row">
             <button
               onClick={scrollToForm}
-              className="inline-flex items-center justify-center gap-2 rounded-xl bg-navy px-6 py-4 text-base font-bold text-white shadow-lg transition hover:-translate-y-0.5"
+              className="inline-flex items-center justify-center gap-2 rounded-xl bg-white px-6 py-4 text-base font-bold text-navy shadow-lg transition hover:-translate-y-0.5"
             >
               Check Your Eligibility — Free <span aria-hidden>→</span>
             </button>
@@ -203,12 +203,12 @@ function Hero() {
               )}`}
               target="_blank"
               rel="noreferrer"
-              className="inline-flex items-center justify-center gap-2 rounded-xl border-2 border-border px-6 py-4 text-base font-semibold text-navy transition hover:bg-navy hover:text-white"
+              className="inline-flex items-center justify-center gap-2 rounded-xl border-2 border-white/70 px-6 py-4 text-base font-semibold text-white transition hover:bg-white hover:text-navy"
             >
               Chat on WhatsApp
             </a>
           </div>
-          <p className="mt-4 text-xs text-ink-muted">
+          <p className="mt-4 text-xs text-white/70">
             🔒 Your details are private. Classes begin {CLASS_START}.
           </p>
         </div>
