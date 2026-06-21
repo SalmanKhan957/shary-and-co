@@ -24,7 +24,7 @@ const TUITION_PER_YEAR = "$7,950";
 
 // EDIT: paste your explainer video embed URL here (YouTube/Vimeo "embed" link,
 // e.g. "https://www.youtube.com/embed/XXXXXXXX"). Leave "" to show a placeholder.
-const VIDEO_EMBED_URL = "";
+const VIDEO_EMBED_URL = "https://www.youtube.com/embed/8rhreSJXnko";
 
 export const Route = createFileRoute("/")({
   head: () => ({
