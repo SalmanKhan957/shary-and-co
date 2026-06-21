@@ -147,7 +147,7 @@ function Navbar() {
     <header className="sticky top-0 z-40 bg-teal text-navy shadow-md">
       <div className="mx-auto flex max-w-7xl items-center justify-between px-5 py-3">
         <Logo light />
-        <nav className="hidden gap-8 text-sm font-medium text-navy md:flex">
+        <nav className="hidden gap-8 text-base font-bold text-navy md:flex">
           <a href="#offer" className="rounded-lg px-3 py-2 transition hover:bg-navy/10 hover:outline hover:outline-2 hover:outline-navy focus:bg-navy/10 focus:outline focus:outline-2 focus:outline-navy">
             The Program
           </a>
